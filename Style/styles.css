@@ -1,0 +1,458 @@
+
+#efect_botton {
+  background-color: black; /* Set default button color */
+  color: white; /* Set default text color */
+  padding: 10px 20px; /* Add padding */
+  border: none; /* Remove default border */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  transition: background-color 30s ease; /* Add transition for background color */
+}
+
+#Colortext {
+  color: white;
+
+}
+
+/* NAV PRINCIPAL  position: fixed;*/
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1px;
+  background-color:rgba(0, 0, 0, 0.1);
+  color: white;
+  border-radius: 30px;
+
+
+}
+
+.nav-title {
+  display: flex;
+  align-items: center;
+}
+
+.nav-options {
+  display: flex;
+  align-items: center;
+}
+
+.nav-options a {
+  color:white;
+  text-decoration:wavy;
+  margin-left: 1rem;
+}
+
+
+
+
+/* Estilo para un párrafo con marco */
+
+#parrafo-con-marco {
+  /* Propiedades para el marco */
+  color: white;
+  border: 2px solid #000; /* Color y grosor del borde */
+  padding: 10px; /* Espacio entre el borde y el texto */
+  border-radius: 5px; /* Bordes redondeados */
+
+  /* Propiedades para el texto */
+  font-family: Arial, sans-serif; /* Tipo de letra */
+  font-size: 16px; /* Tamaño de la letra */
+  line-height: 1.5; /* Espacio entre líneas de texto */
+  text-align: justify; /* Alineación del texto */
+}
+
+
+
+/* TEXTO SOBRE MI */
+
+#card {
+  width: 1900px;
+  margin: 80px;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+}
+
+
+
+
+
+#Centrar {
+  display: flex;
+  /* Make the unordered list a flexbox container */
+  justify-content: center;
+  /* Center the list items horizontally */
+  align-items: center;
+  text-align: center;
+  background: transparent;
+}
+
+
+
+
+.imagen-circular {
+  width: 300px;
+  /* Ajusta el tamaño de la imagen */
+  height: 300px;
+  /* Ajusta el tamaño de la imagen */
+  border-radius: 10%;
+  display: inline-block;
+  position: relative;
+  /* Posicionar la imagen de forma relativa */
+}
+
+.imagen-circular::before {
+  content: normal;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300%;
+  height: 300%;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.2);
+  /* Color de fondo del círculo */
+  animation: girar 2s linear infinite;
+  /* Animación de giro */
+}
+
+
+.contenedor-imagen-texto {
+  display: flex;
+  align-items: center;
+}
+
+.imagen-circular {
+  width: 300px;
+  /* Ajusta el tamaño de la imagen */
+  height: 300px;
+  /* Ajusta el tamaño de la imagen */
+  border-radius: 1000%;
+  margin-right: 100px;
+  /* Espacio entre la imagen y el texto */
+}
+
+
+.texto {
+  font-family: sans-serif;
+  text-align: left;
+}
+
+.texto h2 {
+  margin-bottom: 50px;
+}
+
+
+
+
+.lista-horizontal {
+  list-style: none;
+  margin: 300px;
+  padding: 300px;
+  display: flex;
+  /* Convertir la lista en un contenedor flexible */
+}
+
+.lista-horizontal li {
+  margin-right: 300px;
+  /* Espacio entre los elementos de la lista */
+}
+
+.lista-horizontal a {
+  text-decoration: overline;
+  color: #333;
+}
+
+
+#myVideo {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  width: 50%;
+  height: 50%;
+  z-index: -1;
+}
+
+
+
+
+.redes-sociales {
+  list-style: none;
+  margin: 10px;
+  padding: 10px;
+}
+
+.redes-sociales li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.redes-sociales a {
+  display: inline-block;
+}
+
+.redes-sociales img {
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+  /* Ajustar el margen superior de las imágenes */
+}
+
+#sobre-mi {
+  color: white;
+}
+
+
+.skills__box {
+
+  display: inline-flex;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 100px;
+  /* Add spacing between cards */
+  box-shadow: 20px 20px 20px 20px rgba(0, 0, 0, 0.5);
+  /* Add a subtle shadow */
+  border-radius: 50px;
+  padding: 50px;
+  font-size: 20px;
+  /* Adjust body text font size */
+  line-height: 1.6;
+  justify-content: center;
+  /* Distribute boxes evenly with spacing */
+  align-items: center;
+  margin: 20px;
+}
+
+
+#skill_img {
+  transform: scale(0.6);
+  text-align: center;
+  font-family: sans-serif;
+  margin-bottom: 1px;
+  display: flex;
+  align-items: center;
+
+}
+
+#skill_text {
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+  text-align: center;
+  margin-bottom: 5px;
+  display: center;
+  align-items: center;
+
+  list-style-type: none;
+
+}
+
+#skill_titulo {
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+  text-align: center;
+  margin-bottom: 50px;
+  display: center;
+  align-items: center;
+
+
+}
+
+.skills__title{
+  text-align: center;
+  list-style-type: none;
+}
+
+.skills__box{
+  text-align: center;
+  list-style-type: none;
+  
+}
+/*Poyecto */
+
+.card {
+  width: 260px;
+  height: 400px;
+  background-color: white;
+  color: black;
+  border-radius: 30px;
+  text-align: center;
+  display: inline-block;
+  margin-right: 1rem;
+
+  margin: 10px;
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  text-align: center;
+  transform: scale(0.9);
+  border-radius: 10px;
+  
+}
+
+.card-content {
+  padding: 10px;
+  text-align: center;
+}
+
+.card-button {
+  display:inline-flexbox;
+  width: 100%;
+  padding: 10px;
+  background-color:black;
+  color: white;
+  text-decoration:solid;
+  border-radius: 80px;
+
+  text-align: center;
+  align-items: center;
+}
+
+
+/* Experiencia Académica*/
+
+#delete{
+  list-style-type: none;
+}
+
+/* Updated code with consistent formatting and minor improvements */
+
+.academic__courses__box {
+  transform: scale(0.9);
+  text-align: center;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  background: white;
+  color: black;
+  margin-bottom: 10px;
+  margin: 10px;
+  width: 260px;
+  height: 260px;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 20px;
+  display: inline-flex;
+
+  background-color: white;
+  color: black;
+  border-radius: 30px;
+  text-align: center;
+  display: inline-block;
+  margin-right: 1rem;
+
+  margin: 10px;
+  
+}
+
+.academic__courses__item__img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover; /* change this to cover to maintain aspect ratio */
+  margin:-10%;
+  border-radius: 40px;
+  transform: scale(0.6);
+  
+
+}
+  
+
+#formacion{
+  text-align: center; /* Center text within each item */
+  list-style-type: none;
+}
+
+
+/* CARDS PROYECTO   background-color: rgba(255, 255, 255, 0.1);*/
+
+#skill_card{
+  transform: scale(0.9);
+  text-align: center;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  background: white;
+  color: black;
+  margin-bottom: 10px;
+  margin: 10px;
+  width: 280px;
+  height: 370px;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 30px;
+  display: inline-flex;
+
+} 
+
+
+#skill_p{
+
+  transform: scale(0.9);
+  text-align: center;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  margin-bottom: 10px;
+  margin: 10px;
+  width: auto;
+  height: 240px;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 50px;
+  display: inline-flex;
+
+}
+
+
+/* FOOTER CON LOGO */
+
+footer {
+
+
+  box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.2);
+  /* Add a subtle shadow */
+  border-radius: 90px;
+  /* Create rounded corners */
+  /* Prevent content from overflowing */
+
+  font-size: 13px;
+  /* Adjust body text font size */
+  line-height: 5px;
+  padding: 50px 50px;
+  margin-top: 400px;
+  margin: 20px;
+
+  color: white;
+  text-align: center;
+  position: auto;
+  /* Posicionamiento fijo */
+  bottom: 100px;
+  /* Ubicar al final de la página */
+  width: 100%;
+  /* Ancho completo */
+  padding: 1%;
+  text-align: center;
+  /* Centrar el texto */
+  z-index: none;
+  margin: -1px;
+  
+}
+
+#logo12 {
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
+}
+
+@media (min-width: 768px) {}
